@@ -112,25 +112,55 @@ function displayItems(category) {
 			wishlist.setAttribute("id", "wishlistBtn" + product.id);
 			wishlist.setAttribute("class", "btn btn-md btn-warning");
 			wishlist.addEventListener("click",function(e)
-			{	
-				localStorage.setItem("wishlist",product.id)
-				console.log(localStorage.wishlist);
+			{	var ex = (this.id).slice(-2)
+				if(localStorage.getItem("wishlistItems") != null)
+				{
+					var wishlistItems = [];
+					wishlistItems.push(localStorage.getItem("wishlistItems"));
+					wishlistItems.push(ex);
+					localStorage.setItem("wishlistItems",wishlistItems);
+					console.log(localStorage.wishlistItems);
+				}
+				else
+				{
+					var wishlistItems = []
+					//localStorage.setItem("cart",product.id)
+					wishlistItems.push(product.id);
+					localStorage.setItem("wishlistItems",wishlistItems);
+					console.log(localStorage.wishlistItems);
+				}
 			})
 			document.getElementById("thumbnail" + product.id).appendChild(wishlist);
 			document.getElementById("wishlistBtn" + product.id).innerHTML = "<span class=\"glyphicon glyphicon-heart\">" + "Wishlist" + "</span>";
 			
 
 			var addToCart = document.createElement("button");
-			addToCart.setAttribute("id", "cartBtn" + product.id);
+			addToCart.setAttribute("id", "0" + product.id);
 			addToCart.setAttribute("class", "btn btn-md btn-info");
 			addToCart.addEventListener("click",function(e)
 			{	
-				//console.log(e.target.id)
-				localStorage.setItem("cart",product.id)
-				console.log(localStorage.cart);
+				var ex = (this.id).slice(-2)
+				
+				
+				if(localStorage.getItem("cartItems") != null)
+				{
+					var cartItems = [];
+					cartItems.push(localStorage.getItem("cartItems"));
+					cartItems.push(ex);
+					localStorage.setItem("cartItems",cartItems);
+					console.log(localStorage.cartItems);
+				}
+				else
+				{
+					var cartItems = []
+					//localStorage.setItem("cart",product.id)
+					cartItems.push(product.id);
+					localStorage.setItem("cartItems",cartItems);
+					console.log(localStorage.cartItems);
+				}
 			})
 			document.getElementById("thumbnail" + product.id).appendChild(addToCart);
-			document.getElementById("cartBtn" + product.id).innerHTML = "<span class=\"glyphicon glyphicon-shopping-cart\">" + "Add to Cart" + "</span>";
+			document.getElementById("0" + product.id).innerHTML = "<span class=\"glyphicon glyphicon-shopping-cart\">" + "Add to Cart" + "</span>";
 			
 		}
 
