@@ -1,4 +1,4 @@
-
+var cart = [];
 
 
 /*
@@ -7,7 +7,7 @@
 function displayCart() {
    
     $.getJSON("../data/productData.json", function (result) {
-        var cart = [];
+        
         var cartData = localStorage.getItem("cartItems").split(',');
         console.log(cartData)
 
@@ -26,7 +26,7 @@ function displayCart() {
         for (var product of cart) {
             var cartItem = document.createElement("div");
             cartItem.setAttribute("id",product.id);
-            cartItem.setAttribute("class","thumbnail");
+            cartItem.setAttribute("class","thumbnail cart");
             document.getElementById("showCart").appendChild(cartItem);
 
             var productDetails = document.createElement("div");
@@ -37,12 +37,32 @@ function displayCart() {
             <div class="col-md-6 col-sm-2 col-xs-12">
             <h1 style="color:red;">`+product.brand+`</h1>
             <h3>`+ product.productName+`</h3><h3> &#x20B9; `+product.price+`</h3>
-            <button class="btn btn-lg btn-danger">Remove item</button>
+            
             </div>
             <div class="col-md-6 col-sm-2 col-xs-12">
             <img src="` + product.productImage[0] + `" style="width:300px;height:400px;"></img>
             </div>
             </div>`
+
+            var removeFromCart = document.createElement("button");
+			removeFromCart.setAttribute("id", "cartBtn" + product.id);
+            removeFromCart.setAttribute("class", "btn btn-lg btn-danger");
+            document.getElementById("details"+product.id).appendChild(removeFromCart);
+            removeFromCart.addEventListener("click",function(e)
+			{	
+                var prodId = (this.id).slice(-2);
+                for(var d of cart){
+                    if(d.id == prodId) {
+                        
+                        cart.splice(cart.indexOf(d),1)
+                        var remove = document.getElementById(d.id);
+                        remove.parentNode.removeChild(remove);
+                       
+                        
+                    } 
+                } 
+			});
+			document.getElementById("cartBtn" + product.id).innerHTML = "<center>" + "Remove Item" + "</center>";
         }
         
     });
@@ -86,12 +106,32 @@ function displayWishlist() {
             <div class="col-md-6 col-sm-2 col-xs-12">
             <h1 style="color:red;">`+product.brand+`</h1>
             <h3>`+ product.productName+`</h3><h3> &#x20B9; `+product.price+`</h3>
-            <button class="btn btn-lg btn-danger">Remove item</button>
             </div>
             <div class="col-md-6 col-sm-2 col-xs-12">
             <img src="` + product.productImage[0] + `" style="width:300px;height:400px;"></img>
             </div>
             </div>`
+
+            var removeFromWishlist = document.createElement("button");
+			removeFromWishlist.setAttribute("id", "wishlistBtn" + product.id);
+            removeFromWishlist.setAttribute("class", "btn btn-lg btn-danger");
+            document.getElementById("details"+product.id).appendChild(removeFromWishlist);
+            removeFromWishlist.addEventListener("click",function(e)
+			{	
+                var prodId = (this.id).slice(-2);
+                for(var d of wishlist){
+                    if(d.id == prodId) {
+                        
+                        wishlist.splice(wishlist.indexOf(d),1)
+                        console.log(wishlist);
+                        var remove = document.getElementById(d.id);
+                        remove.parentNode.removeChild(remove);
+
+                    } 
+                }
+                
+			});
+			document.getElementById("wishlistBtn" + product.id).innerHTML = "<center>" + "Remove Item" + "</center>";
     }
     });
 

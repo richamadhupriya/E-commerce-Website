@@ -139,14 +139,14 @@ function displayItems(category) {
 			addToCart.setAttribute("class", "btn btn-md btn-info");
 			addToCart.addEventListener("click",function(e)
 			{	
-				var ex = (this.id).slice(-2)
+				var prodId = (this.id).slice(-2)
 				
 				
 				if(localStorage.getItem("cartItems") != null)
 				{
 					var cartItems = [];
 					cartItems.push(localStorage.getItem("cartItems"));
-					cartItems.push(ex);
+					cartItems.push(prodId);
 					localStorage.setItem("cartItems",cartItems);
 					alert("Added to cart");
 					console.log(localStorage.cartItems);

@@ -148,13 +148,12 @@ body
 }
 
 
-@media screen and (max-width:300px)
+@media screen and (max-width:760px)
 {
-	#showCart{
-		height:610px;
+	.cart{
+		height:700px;
 	}
 }
-
 
 
 
