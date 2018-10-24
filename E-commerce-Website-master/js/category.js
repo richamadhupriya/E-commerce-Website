@@ -148,6 +148,7 @@ function displayItems(category) {
 					cartItems.push(localStorage.getItem("cartItems"));
 					cartItems.push(ex);
 					localStorage.setItem("cartItems",cartItems);
+					alert("Added to cart");
 					console.log(localStorage.cartItems);
 				}
 				else
@@ -156,6 +157,7 @@ function displayItems(category) {
 					//localStorage.setItem("cart",product.id)
 					cartItems.push(product.id);
 					localStorage.setItem("cartItems",cartItems);
+					alert("Added to cart");
 					console.log(localStorage.cartItems);
 				}
 			})

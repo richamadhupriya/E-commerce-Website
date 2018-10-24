@@ -83,12 +83,12 @@ function displayWishlist() {
         document.getElementById(product.id).append(productDetails)
         document.getElementById("details"+product.id).innerHTML = 
             `<div class="row" >
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-2 col-xs-12">
             <h1 style="color:red;">`+product.brand+`</h1>
             <h3>`+ product.productName+`</h3><h3> &#x20B9; `+product.price+`</h3>
             <button class="btn btn-lg btn-danger">Remove item</button>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-2 col-xs-12">
             <img src="` + product.productImage[0] + `" style="width:300px;height:400px;"></img>
             </div>
             </div>`
