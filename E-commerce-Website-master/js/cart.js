@@ -136,3 +136,109 @@ function displayWishlist() {
     });
 
 }
+
+/*
+ @desc: display details on clicking the image
+*//*
+function displayDetails() {
+   
+    $.getJSON("../data/productData.json", function (result) {
+        var products = [];
+        var productData = localStorage.getItem("productDetails").split(',');
+        console.log(productData)
+
+        for(var data of productData){
+             $.each(result.Products, function (key, item) {
+                
+                 if (data == item.id)
+                  {
+                    products.push(item);
+                    
+                }
+             });
+        }
+        console.log(products)
+
+        for (var product of products) {
+            var item = document.createElement("div");
+            item.setAttribute("id",product.id);
+            item.setAttribute("class","thumbnail cart");
+            document.getElementById("showCart").appendChild(item);
+
+            var productDetails = document.createElement("div");
+            productDetails.setAttribute("id","details"+product.id)
+            document.getElementById(product.id).append(productDetails)
+            document.getElementById("details"+product.id).innerHTML = 
+            `<div class="row" >
+            <div class="col-md-6 col-sm-2 col-xs-12">
+            <h1 style="color:red;">`+product.brand+`</h1>
+            <h3> Name: `+ product.productName+`</h3><h3>Price: &#x20B9; `+product.price+`</h3>
+            <h3>Color: `+product.color+`</h3>
+            </div>
+            <div class="col-md-6 col-sm-2 col-xs-12">
+            <img src="` + product.productImage[0] + `" style="width:300px;height:400px;"></img>
+            </div>
+            </div>`
+
+            var wishlist = document.createElement("button");
+			wishlist.setAttribute("id", "wishlistBtn" + product.id);
+			wishlist.setAttribute("class", "btn btn-md btn-warning");
+			wishlist.addEventListener("click",function(e)
+			{	var ex = (this.id).slice(-2)
+				if(localStorage.getItem("wishlistItems") != null)
+				{
+					var wishlistItems = [];
+					wishlistItems.push(localStorage.getItem("wishlistItems"));
+					wishlistItems.push(ex);
+					localStorage.setItem("wishlistItems",wishlistItems);
+					alert("Added to wishlist");
+					console.log(localStorage.wishlistItems);
+				}
+				else
+				{
+					var wishlistItems = []
+					//localStorage.setItem("cart",product.id)
+					wishlistItems.push(product.id);
+					localStorage.setItem("wishlistItems",wishlistItems);
+					alert("Added to wishlist");
+					console.log(localStorage.wishlistItems);
+				}
+			})
+			document.getElementById("details"+product.id).appendChild(wishlist);
+			document.getElementById("wishlistBtn" + product.id).innerHTML = "<span class=\"glyphicon glyphicon-heart\">" + "Wishlist" + "</span>";
+			
+
+			var addToCart = document.createElement("button");
+			addToCart.setAttribute("id", "0" + product.id);
+			addToCart.setAttribute("class", "btn btn-md btn-info");
+			addToCart.addEventListener("click",function(e)
+			{	
+				var prodId = (this.id).slice(-2)
+				
+				
+				if(localStorage.getItem("cartItems") != null)
+				{
+					var cartItems = [];
+					cartItems.push(localStorage.getItem("cartItems"));
+					cartItems.push(prodId);
+					localStorage.setItem("cartItems",cartItems);
+					alert("Added to cart");
+					console.log(localStorage.cartItems);
+				}
+				else
+				{
+					var cartItems = []
+					//localStorage.setItem("cart",product.id)
+					cartItems.push(product.id);
+					localStorage.setItem("cartItems",cartItems);
+					alert("Added to cart");
+					console.log(localStorage.cartItems);
+				}
+			})
+			document.getElementById("details"+product.id).appendChild(addToCart);
+			document.getElementById("0" + product.id).innerHTML = "<span class=\"glyphicon glyphicon-shopping-cart\">" + "Add to Cart" + "</span>";
+        }
+        
+    });
+
+}*/
