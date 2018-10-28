@@ -33,9 +33,8 @@ $(document).ready(function () {
 
 	$.getJSON("../data/productData.json", function (result) {
 
-		$.each(result.Products, function (data, product) {
-			productList = result.Products;
-			//console.log(productList);
+		$.each(result, function (data, product) {
+			productList = result;
 		});
 		$("#productItems").empty();
 
@@ -64,7 +63,7 @@ function displayItems(category) {
 	//alert(category);
 	categoryProducts = [];
 	$.get("../data/productData.json", function (result) {
-		$.each(result.Products, function (data, product) {
+		$.each(result, function (data, product) {
 
 			if (product.subCategory == category) {
 

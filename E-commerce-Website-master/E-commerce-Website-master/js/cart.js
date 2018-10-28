@@ -12,7 +12,7 @@ function displayCart() {
         console.log(cartData)
 
         for(var data of cartData){
-             $.each(result.Products, function (key, cartItem) {
+             $.each(result, function (key, cartItem) {
                 
                  if (data == cartItem.id)
                   {
@@ -37,12 +37,8 @@ function displayCart() {
             <div class="col-md-6 col-sm-2 col-xs-12">
             <h1 style="color:red;">`+product.brand+`</h1>
             <h3>Name: `+ product.productName+`</h3>
-            <form class="form-inline">
-                <label for="quantity">Quantity: </label>
-                <input type="number" class="form-control input-sm" id=`+product.id+` name="qty"  onchange="calculatePrice($(this).val())"/>
-            </form name="calculate">
-            <h3 id="price">Price: &#x20B9;  `+product.price+`</h3>
-            
+            <h3 id="price">Color: `+product.color+`</h3>
+            <h3 id="price">Price: &#x20B9; `+product.price+`</h3>
             </div>
             <div class="col-md-6 col-sm-2 col-xs-12">
             <img src="` + product.productImage[0] + `" style="width:300px;height:400px;"></img>
@@ -74,17 +70,6 @@ function displayCart() {
 
 }
 
-function calculatePrice(productId)
-{
-    
-    var price = document.getElementById("price").innerText
-    
-    newprice = price*productId
-    console.log(productId)
-    console.log(newprice)
-    $("#price").html(newprice)
-}
-
 /*
     @desc: display wishlist
 */
@@ -96,7 +81,7 @@ function displayWishlist() {
         var wishlistData = localStorage.getItem("wishlistItems").split(',');
         //console.log(wishlistData)
         for(var data of wishlistData){
-            $.each(result.Products, function (key, wishlistItem) {
+            $.each(result, function (key, wishlistItem) {
                
                 if (data == wishlistItem.id)
                  {
@@ -164,7 +149,7 @@ function displayDetails() {
         console.log(productData)
 
         for(var data of productData){
-             $.each(result.Products, function (key, item) {
+             $.each(result, function (key, item) {
                 
                  if (data == item.id)
                   {

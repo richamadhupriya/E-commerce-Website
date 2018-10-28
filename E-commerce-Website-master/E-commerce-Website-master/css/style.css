@@ -40,7 +40,7 @@ body
 }
 
 .thumbnail img{
-	width:300px;
+	width:330px;
 	height:300px;
 }
 .thumbnail:hover
@@ -139,7 +139,44 @@ body
 	margin-bottom: 30px;
 	margin-left:130px;
 }
-
+.crud .thumbnail{
+	padding:18px 18px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	height:100%;
+	width:800px;
+	margin-bottom: 30px;
+	margin-left:130px;
+}
+.block {
+    border: 0px solid dodgerblue;
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    background: dodgerblue;
+    border-radius: 200px;
+    color: white;
+    height: 200px;
+    font-weight: bold;
+    width: 200px;
+	display: table;
+	padding-bottom: 10px;
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+}
+#add
+{
+	top:-100px;
+	overflow: auto;
+}
+#update
+{
+	top:-100px;
+	overflow: auto;
+}
 @media screen and (max-width:500px)
 {
 	.thumbnail{

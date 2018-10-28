@@ -1,23 +1,31 @@
 function login(){
-	var userName = document.forms["loginForm"]["userName"].value;
-	var password = document.forms["loginForm"]["password"].value;
+	var user = document.loginForm.userName.value;
+	var pass = document.loginForm.password.value;
 	
-	if(userName == "")
+	if(user == "")
 	{
 		window.alert("Please enter your username."); 
-        userName.focus(); 
+        user.focus(); 
         return false;
 		
 	}
-	else if(password == "")
+	else if(pass == "")
 	{
 		window.alert("Please enter your password."); 
-        password.focus(); 
+        pass.focus(); 
         return false;
 		
 	}
-	else{
-		window.location.assign("../html/dashboard.html")
+	else if(user == "admin" && pass== "admin")
+	{
+		window.alert("You have logged into admin account")
+		window.location.assign("../html/admin.html")
 	}
+	else{
+		window.alert("You have entered wrong credentials")
+		user.focus(); 
+		return false;
+	}
+	
 	
 }

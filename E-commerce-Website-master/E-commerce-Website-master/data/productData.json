@@ -1,343 +1,799 @@
-{
-	"Products":[
-	{
-		"id":"01",
-		"category":"Footwear",
-		"subCategory":"men",
-		"brand":"Nike",
-		"productName": "Air Max",
-		"price":"13000",
-		"color":["Black","White"],
-		"size": ["7","8","9"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jdkjzww0/shoe/j/b/e/air-max-infuriate-low-9-nike-black-black-white-dark-grey-original-imafftvnrqhzdgph.jpeg?q=70"
-				
-			]
-	},
-	{
-		"id":"02",
-		"category":"Footwear",
-		"subCategory":"men",
-		"brand":"Adidas",
-		"productName": "Originals",
-		"price":"11999",
-		"color":["Black","White"],
-		"size": ["8","9"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jc7z0y80/shoe/q/b/t/los-angeles-ss18-7-adidas-originals-cblack-cblack-greone-original-imaffekskqtmwerw.jpeg?q=70"
-			]
-	},
-	{
-		"id":"03",
-		"category":"Footwear",
-		"subCategory":"men",
-		"brand":"Puma",
-		"productName": "Slyde DP Sneakers",
-		"price":"1999",
-		"color":["Olive"],
-		"size": ["8","9"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jasj6a80/shoe/q/w/h/slyde-dp-nw1-9-puma-olive-night-original-imafyazfurzpwfkh.jpeg?q=70"
-			]
-	},
-	{
-		"id":"04",
-		"category":"Footwear",
-		"subCategory":"women",
-		"brand":"Jade",
-		"productName": "Women Heels",
-		"price":"599",
-		"color":["Beige"],
-		"size": ["2","3","4","5"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jamtevk0/sandal/r/s/t/w6-35-jade-beige-original-imaetg69a6ehpbgf.jpeg?q=70"
-			]
-	},
-	{
-		"id":"05",
-		"category":"Footwear",
-		"subCategory":"women",
-		"brand":"Vans",
-		"productName": "Chauffette SF",
-		"price":"3999",
-		"color":["Orange","Blue"],
-		"size": ["4","5","6"],
-		"productImage":[
-			"https://rukminim1.flixcart.com/image/612/612/j7jd2fk0/shoe/b/y/y/vn0a38i2-8-vans-marshmallow-original-imaexrevbjzpdnzd.jpeg?q=70"
-			]
-	},
-	{
-		"id":"06",
-		"category":"Footwear",
-		"subCategory":"women",
-		"brand":"Reebok",
-		"productName": "Wave Ride",
-		"price":"2475",
-		"color":["Blue","Red"],
-		"size": ["4","7"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jll6xzk0/shoe/g/a/g/cn8338-6-5-reebok-pink-original-imaf8zhcacwgkgks.jpeg?q=70"
-			]
-	},
-	{
-		"id":"07",
-		"category":"Footwear",
-		"subCategory":"kids",
-		"brand":"Crocs",
-		"productName": "Slip on sneakers",
-		"price":"2097",
-		"color":["Black","Pink"],
-		"size": ["11","13"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jmi22kw0/kids-sandal/3/j/p/9c-205431-410-crocs-original-imaf9e2mukxwz8bg.jpeg?q=70"
-			]
-	},
-	{
-		"id":"08",
-		"category":"Footwear",
-		"subCategory":"kids",
-		"brand":"Puma",
-		"productName": "Velcro",
-		"price":"1299",
-		"color":["Black","Blue"],
-		"size": ["11","13"],
-		"productImage":[
-			"https://rukminim1.flixcart.com/image/612/612/jf4a64w0/kids-sandal/z/c/k/11-36335107-puma-original-imaf3nwzc3xcghf2.jpeg?q=70"
-			]
-	},
-	{
-		"id":"09",
-		"categoy":"Footwear",
-		"subCategory":"kids",
-		"brand":"Kitens",
-		"productName": "Velcro Flats",
-		"price":"1299",
-		"color":["Gold","Pink"],
-		"size": ["10","11","13"],
-		"productImage":[
-			"https://rukminim1.flixcart.com/image/832/832/jkim1zk0/kids-sandal/q/a/d/1-ktg546gold-kittens-original-imaf7u6pmaybhzhm.jpeg?q=70"
-			]
-	},
-	{
-		"id":"10",
-		"category":"Clothing",
-		"subCategory":"Men",
-		"type":"T-shirt",
-		"brand":"Nautica",
-		"productName": "Printed Polo T-Shirt",
-		"price":"4599",
-		"color":"Blue",
-		"size": ["S","M","L","XL","XXL"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jezzukw0/t-shirt/f/d/f/m-ntk74100h41d-nautica-original-imaf3jga7nkvuh5c.jpeg?q=70"
-			]
-	},
-	{
-		"id":"11",
-		"category":"Clothing",
-		"subCategory":"Men",
-		"type":"Shirt",
-		"brand":"Levis",
-		"productName": "Checked casual shirt",
-		"price":"2999",
-		"color":"Red",
-		"size": ["38","40","42","44"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jhjg13k0/shirt/y/p/p/m-hlsh009223-red-navy-blue-highlander-original-imaf5g64ryaafhch.jpeg?q=70"
-			]
-	},
-	
-	{
-		"id":"12",
-		"category":"Clothing",
-		"subCategory":"Men",
-		"type":"Jeans",
-		"brand":"Levis",
-		"productName": "Washed blue jeans",
-		"price":"3599",
-		"color":"Blue",
-		"size": ["32","34","36"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jm9hfgw0/jean/z/q/f/32-18298-0264blue-levi-s-original-imaf97h2x7en37hh.jpeg?q=70"
-			]
-	},
-	{
-		"id":"13",
-		"category":"Clothing",
-		"subCategory":"Women",
-		"type":"Kurta",
-		"brand":"Rangriti",
-		"productName": "A-line Kurta with jacket",
-		"price":"1699",
-		"color":"Blue",
-		"size": ["S","M","L"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jlsc58w0/kurta/j/u/4/m-rmmfolk-tal1438teal-blue-rangriti-original-imaf8u2amgv9rsq5.jpeg?q=70"
-			]
-	},
-	{
-		"id":"14",
-		"category":"Clothing",
-		"subCategory":"Women",
-		"type":"Kurta",
-		"brand":"Biba",
-		"productName": "Checked Kurta",
-		"price":"1699",
-		"color":"Pink",
-		"size": ["M","L"],
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jm81zm80/kurta/h/k/y/3xl-rbmc-k81-oomph-original-imaf7hryjfjhbuhw.jpeg?q=70"
-			]
-	},
-	{
-		"id":"15",
-		"category":"Clothing",
-		"subCategory":"Women",
-		"type":"Saree",
-		"brand":"Mitera",
-		"productName": "Banarasi Saree",
-		"price":"1999",
-		"color":"Black",
-		"size": "oneSize",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/612/612/jkzrc7k0/sari/4/g/w/free-mango-black-ng-creation-original-imaf5hhx5dz6hb6c.jpeg?q=70"
-			]
-	},
-	{
-		"id":"16",
-		"category":"Electronics",
-		"subCategory":"Laptops",
-		"brand":"HP",
-		"productName": "Pavillion",
-		"price":"29999",
-		"color":"Black",
-		"ram":"4GB",
-		"os":"Windows 10 Home",
-		"processor":"i3",
-		"capacity":"1 TB HDD",
-		"display":"15 inch",
-		"weight":"1.77 kg",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/h/b/r/hp-na-laptop-original-imaf9hu7cgkzgjgg.jpeg?q=70"
-			]
-	},
-	{
-		"id":"17",
-		"category":"Electronics",
-		"subCategory":"Laptops",
-		"brand":"Lenovo",
-		"productName": "Thinkpad",
-		"price":"37999",
-		"color":"Black",
-		"ram":"4GB",
-		"os":"Windows 10 Home",
-		"processor":"i3",
-		"capacity":"1 TB HDD",
-		"display":"14 inch",
-		"weight":"2 kg",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/x/z/a/lenovo-na-laptop-original-imaf9hu69a6apzru.jpeg?q=70"
-			]
-	},
-	{
-		"id":"18",
-		"category":"Electronics",
-		"subCategory":"Laptops",
-		"brand":"Dell",
-		"productName": " Ideapad 330",
-		"price":"48999",
-		"color":"Black",
-		"ram":"4GB",
-		"os":"Windows 10 Home",
-		"processor":"i5",
-		"capacity":"1 TB HDD",
-		"display":"15 inch",
-		"weight":"2.22 kg",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/e/x/lenovo-na-laptop-original-imaf9hu7hyuktyaw.jpeg?q=70"
-			]
-	},
-	{
-		"id":"19",
-		"category":"Electronics",
-		"subCategory":"Mobiles",
-		"brand":"Samsung",
-		"productName": " Galaxy A7",
-		"price":"23990",
-		"color":"Black",
-		"ram":"4GB",
-		"os":"Android Oreo 8.0",
-		"sim":"dual",
-		"capacity":"1 TB HDD",
-		"display":"6 inch",
-		"camera" : "24MP + 5MP + 8MP",
-		"network" : "4G Volte, 4G, 3G, 2G",
-		"battery":"3300 mAH",
-		"warranty":"1 year",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35cv5anzqw.jpeg?q=70"
-			]
-	},
-	{
-		"id":"20",
-		"category":"Electronics",
-		"subCategory":"Mobiles",
-		"brand":"Redmi",
-		"productName": " Note 5 pro",
-		"price":"14990",
-		"color":"Gold",
-		"os":"Qualcomm Snapdragon 636",
-		"sim":"dual",
-		"storage":"16GB",
-		"display":"5.99 inch",
-		"camera" : "12MP + 5MP + 20MP",
-		"network" : "4G Volte, 4G, 3G, 2G",
-		"battery":"4000 mAH",
-		"warranty":"1 year",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70"
-			]
-	},
-	{
-		"id":"21",
-		"category":"Electronics",
-		"subCategory":"Mobiles",
-		"brand":"Apple",
-		"productName": "iPhone SE",
-		"price":"23990",
-		"color":"Rosegold",
-		"ram":"4GB",
-		"os":"iOS 10",
-		"sim":"single",
-		"storage":"32GB",
-		"display":"4 inch",
-		"camera" : "12MP",
-		"network" : "4G, 3G, 2G",
-		"battery":"3300 mAH",
-		"warranty":"1 year",
-		"productImage":
-			[
-				"https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/n/n/5/apple-iphone-se-mp852hn-a-original-imaexw6faf7zbu4s.jpeg?q=70"
-			]
-	}
-	
-	
+[
+    {
+        "id": "01",
+        "category": "Footwear",
+        "subCategory": "men",
+        "brand": "Nike",
+        "productName": "Air Max",
+        "price": "13000",
+        "color": [
+            "Black",
+            "White"
+        ],
+        "size": [
+            "7",
+            "8",
+            "9"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jdkjzww0/shoe/j/b/e/air-max-infuriate-low-9-nike-black-black-white-dark-grey-original-imafftvnrqhzdgph.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "02",
+        "category": "Footwear",
+        "subCategory": "men",
+        "brand": "Adidas",
+        "productName": "Originals",
+        "price": "11999",
+        "color": [
+            "Black",
+            "White"
+        ],
+        "size": [
+            "8",
+            "9"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jc7z0y80/shoe/q/b/t/los-angeles-ss18-7-adidas-originals-cblack-cblack-greone-original-imaffekskqtmwerw.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "03",
+        "category": "Footwear",
+        "subCategory": "men",
+        "brand": "Puma",
+        "productName": "Slyde DP Sneakers",
+        "price": "1999",
+        "color": [
+            "Olive"
+        ],
+        "size": [
+            "8",
+            "9"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jasj6a80/shoe/q/w/h/slyde-dp-nw1-9-puma-olive-night-original-imafyazfurzpwfkh.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "04",
+        "category": "Footwear",
+        "subCategory": "men",
+        "brand": "Red Tape",
+        "productName": "Formal Shoes",
+        "price": "1199",
+        "color": [
+            "Black"
+        ],
+        "size": [
+            "8",
+            "9"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jc9egsw0/shoe/n/7/g/rte059-9-red-tape-black-original-imafffena3x2ptnk.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "05",
+        "category": "Footwear",
+        "subCategory": "men",
+        "brand": "Puma",
+        "productName": "Sports Sandals",
+        "price": "999",
+        "color": [
+            "Black"
+        ],
+        "size": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmux18w0/sandal/t/p/n/36619705-6-puma-iron-gate-black-vibrant-orange-original-imaf9zhcpsuguhh3.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "06",
+        "category": "Footwear",
+        "subCategory": "men",
+        "brand": "Red Chief",
+        "productName": "Boots",
+        "price": "1999",
+        "color": [
+            "Brown"
+        ],
+        "size": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/j77xjm80-1/shoe/g/g/z/rc3517-022-7-red-chief-rust-original-imaexg33gstjraw7.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "07",
+        "category": "Footwear",
+        "subCategory": "women",
+        "brand": "Jade",
+        "productName": "Women Heels",
+        "price": "599",
+        "color": [
+            "Beige"
+        ],
+        "size": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jamtevk0/sandal/r/s/t/w6-35-jade-beige-original-imaetg69a6ehpbgf.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "08",
+        "category": "Footwear",
+        "subCategory": "women",
+        "brand": "Vans",
+        "productName": "Chauffette SF",
+        "price": "3999",
+        "color": [
+            "Orange",
+            "Blue"
+        ],
+        "size": [
+            "4",
+            "5",
+            "6"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/j7jd2fk0/shoe/b/y/y/vn0a38i2-8-vans-marshmallow-original-imaexrevbjzpdnzd.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "09",
+        "category": "Footwear",
+        "subCategory": "women",
+        "brand": "Reebok",
+        "productName": "Wave Ride",
+        "price": "2475",
+        "color": [
+            "Blue",
+            "Red"
+        ],
+        "size": [
+            "4",
+            "7"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jll6xzk0/shoe/g/a/g/cn8338-6-5-reebok-pink-original-imaf8zhcacwgkgks.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "10",
+        "category": "Footwear",
+        "subCategory": "women",
+        "brand": "ABJ",
+        "productName": "Boots",
+        "price": "475",
+        "color": [
+            "Beige"
+        ],
+        "size": [
+            "4",
+            "7"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/j3yrfrk0/shoe/e/4/k/abj-001boot-38-abj-fashion-beige-original-imaeuqw7bswkbkth.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "11",
+        "category": "Footwear",
+        "subCategory": "women",
+        "brand": "Liberty",
+        "productName": "Flats",
+        "price": "375",
+        "color": [
+            "Beige"
+        ],
+        "size": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmwch3k0/slipper-flip-flop/h/g/h/mk-08-beige-36-liberty-beige-original-imaf9zqmnquxygpb.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "12",
+        "category": "Footwear",
+        "subCategory": "women",
+        "brand": "ABJ",
+        "productName": "Wedged",
+        "price": "550",
+        "color": [
+            "Black"
+        ],
+        "size": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/j4fwpzk0/sandal/p/v/r/abj-033sandal-41-abj-fashion-black-original-imaeuqxfvghfwb3b.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "13",
+        "category": "Footwear",
+        "subCategory": "kids",
+        "brand": "Crocs",
+        "productName": "Slip on sneakers",
+        "price": "2097",
+        "color": [
+            "Black",
+            "Pink"
+        ],
+        "size": [
+            "11",
+            "13"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jmi22kw0/kids-sandal/3/j/p/9c-205431-410-crocs-original-imaf9e2mukxwz8bg.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "14",
+        "category": "Footwear",
+        "subCategory": "kids",
+        "brand": "Puma",
+        "productName": "Velcro",
+        "price": "1299",
+        "color": [
+            "Black",
+            "Blue"
+        ],
+        "size": [
+            "11",
+            "13"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jf4a64w0/kids-sandal/z/c/k/11-36335107-puma-original-imaf3nwzc3xcghf2.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "15",
+        "categoy": "Footwear",
+        "subCategory": "kids",
+        "brand": "Kitens",
+        "productName": "Velcro Flats",
+        "price": "1299",
+        "color": [
+            "Gold",
+            "Pink"
+        ],
+        "size": [
+            "10",
+            "11",
+            "13"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jkim1zk0/kids-sandal/q/a/d/1-ktg546gold-kittens-original-imaf7u6pmaybhzhm.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "16",
+        "categoy": "Footwear",
+        "subCategory": "kids",
+        "brand": "Morisons",
+        "productName": "Booties for boys",
+        "price": "299",
+        "color": [
+            "Yellow"
+        ],
+        "size": [
+            "10",
+            "11",
+            "13"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/bootie/f/t/k/10-6-2000670-0-morisons-baby-dreams-original-imaek2f2qpzvpuxp.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "17",
+        "categoy": "Footwear",
+        "subCategory": "kids",
+        "brand": "Footfun",
+        "productName": "Slip-ons",
+        "price": "799",
+        "color": [
+            "Black"
+        ],
+        "size": [
+            "10",
+            "11",
+            "13"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmjhifk0/kids-sandal/x/g/g/10c-kc006-kazarmax-original-imaf9euh5fzcvddn.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "18",
+        "categoy": "Footwear",
+        "subCategory": "kids",
+        "brand": "Lucy & Luke",
+        "productName": "Sports sandals",
+        "price": "349",
+        "color": [
+            "Orange"
+        ],
+        "size": [
+            "10",
+            "11",
+            "13"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jgo0ccw0/kids-sandal/g/b/j/7-5c-lucy-luke-1-lucy-luke-original-imaf2exxarsykey9.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "19",
+        "category": "Clothing",
+        "subCategory": "Men",
+        "type": "T-shirt",
+        "brand": "Nautica",
+        "productName": "Printed Polo T-Shirt",
+        "price": "4599",
+        "color": "Blue",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jezzukw0/t-shirt/f/d/f/m-ntk74100h41d-nautica-original-imaf3jga7nkvuh5c.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "20",
+        "category": "Clothing",
+        "subCategory": "Men",
+        "type": "Shirt",
+        "brand": "Levis",
+        "productName": "Checked casual shirt",
+        "price": "2999",
+        "color": "Red",
+        "size": [
+            "38",
+            "40",
+            "42",
+            "44"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jhjg13k0/shirt/y/p/p/m-hlsh009223-red-navy-blue-highlander-original-imaf5g64ryaafhch.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "21",
+        "category": "Clothing",
+        "subCategory": "Men",
+        "type": "Jeans",
+        "brand": "Levis",
+        "productName": "Washed blue jeans",
+        "price": "3599",
+        "color": "Blue",
+        "size": [
+            "32",
+            "34",
+            "36"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jm9hfgw0/jean/z/q/f/32-18298-0264blue-levi-s-original-imaf97h2x7en37hh.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "22",
+        "category": "Clothing",
+        "subCategory": "Men",
+        "type": "Kurta",
+        "brand": "Fabindia",
+        "productName": "Straight Kurta",
+        "price": "1599",
+        "color": "Pink",
+        "size": [
+            "32",
+            "34",
+            "36"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmthle80-1/kurta/h/y/z/m-1091650-fabindia-original-imaf9n8qd89anqzd.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "23",
+        "category": "Clothing",
+        "subCategory": "Men",
+        "type": "Suit",
+        "brand": "Arrow",
+        "productName": "Self design suit",
+        "price": "5799",
+        "color": "Black",
+        "size": [
+            "32",
+            "34",
+            "36"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jkpr98w0/suit/d/h/u/46-vhsu318m010716-van-heusen-original-imaf7zkthnen6smb.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "24",
+        "category": "Clothing",
+        "subCategory": "Men",
+        "type": "Winterwear",
+        "brand": "Puma",
+        "productName": "Sweatshirt",
+        "price": "1799",
+        "color": "Black",
+        "size": [
+            "32",
+            "34",
+            "36"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/sweatshirt/c/p/m/m-85537001black-puma-original-imaf96fksfhuhd4n.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "25",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "type": "Kurta",
+        "brand": "Rangriti",
+        "productName": "A-line Kurta with jacket",
+        "price": "1699",
+        "color": "Blue",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jlsc58w0/kurta/j/u/4/m-rmmfolk-tal1438teal-blue-rangriti-original-imaf8u2amgv9rsq5.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "26",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "type": "Kurta",
+        "brand": "Biba",
+        "productName": "Checked Kurta",
+        "price": "1699",
+        "color": "Pink",
+        "size": [
+            "M",
+            "L"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jm81zm80/kurta/h/k/y/3xl-rbmc-k81-oomph-original-imaf7hryjfjhbuhw.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "27",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "type": "Saree",
+        "brand": "Mitera",
+        "productName": "Banarasi Saree",
+        "price": "1999",
+        "color": "Black",
+        "size": "oneSize",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/612/612/jkzrc7k0/sari/4/g/w/free-mango-black-ng-creation-original-imaf5hhx5dz6hb6c.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "28",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "type": "Tops",
+        "brand": "Harpa",
+        "productName": "Printed Top",
+        "price": "499",
+        "color": "Beige",
+        "size": [
+            "S",
+            "M"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jkobte80/top/z/g/r/s-gr5415-cream-harpa-original-imaf7zbfgz8j3fyp.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "29",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "type": "Jeans",
+        "brand": "Flying Machine",
+        "productName": "Regular Fit jeans",
+        "price": "799",
+        "color": "Blue",
+        "size": [
+            "28",
+            "30"
+        ],
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmp79u80/jean/b/r/h/28-fwjnfl16-flying-machine-original-imaf9g27nzaks8tz.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "30",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "type": "Saree",
+        "brand": "E-vastram",
+        "productName": "Silk saree",
+        "price": "1799",
+        "color": "multicolour",
+        "size": "onesize",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/sari/h/r/v/1-1-nstasselmulti1-vastrakala-original-imaehhz8vmmdgyau.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "31",
+        "category": "Electronics",
+        "subCategory": "Laptops",
+        "brand": "HP",
+        "productName": "Pavillion",
+        "price": "29999",
+        "color": "Black",
+        "ram": "4GB",
+        "os": "Windows 10 Home",
+        "processor": "i3",
+        "capacity": "1 TB HDD",
+        "display": "15 inch",
+        "weight": "1.77 kg",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/h/b/r/hp-na-laptop-original-imaf9hu7cgkzgjgg.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "32",
+        "category": "Electronics",
+        "subCategory": "Laptops",
+        "brand": "Lenovo",
+        "productName": "Thinkpad",
+        "price": "37999",
+        "color": "Black",
+        "ram": "4GB",
+        "os": "Windows 10 Home",
+        "processor": "i3",
+        "capacity": "1 TB HDD",
+        "display": "14 inch",
+        "weight": "2 kg",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/x/z/a/lenovo-na-laptop-original-imaf9hu69a6apzru.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "33",
+        "category": "Electronics",
+        "subCategory": "Laptops",
+        "brand": "Dell",
+        "productName": " Ideapad 330",
+        "price": "48999",
+        "color": "Black",
+        "ram": "4GB",
+        "os": "Windows 10 Home",
+        "processor": "i5",
+        "capacity": "1 TB HDD",
+        "display": "15 inch",
+        "weight": "2.22 kg",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/d/e/x/lenovo-na-laptop-original-imaf9hu7hyuktyaw.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "34",
+        "category": "Electronics",
+        "subCategory": "Laptops",
+        "brand": "Microsoft",
+        "productName": " Surface Laptop",
+        "price": "80999",
+        "color": "Platinum",
+        "ram": "8GB",
+        "os": "Windows 10 Home",
+        "processor": "i5",
+        "capacity": "1 TB HDD",
+        "display": "13.5 inch",
+        "weight": "1.22 kg",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jkcwakw0/computer/8/z/s/microsoft-na-thin-and-light-laptop-original-imaf7qcqsdkf6tkf.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "35",
+        "category": "Electronics",
+        "subCategory": "Laptops",
+        "brand": "HP",
+        "productName": "Envy",
+        "price": "51999",
+        "color": "Silver",
+        "ram": "4GB",
+        "os": "Windows 10 Home",
+        "processor": "i3",
+        "capacity": "1 TB HDD",
+        "display": "13.3 inch",
+        "weight": "1.22 kg",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jms25jk0/computer/m/8/s/hp-na-thin-and-light-laptop-original-imaf9hu5q5eyj4kh.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "36",
+        "category": "Electronics",
+        "subCategory": "Laptops",
+        "brand": "Acer",
+        "productName": "Nitro 5",
+        "price": "50999",
+        "color": "Silver",
+        "ram": "8GB",
+        "os": "Windows 10 Home",
+        "processor": "i5",
+        "capacity": "1 TB HDD",
+        "display": "14.3 inch",
+        "weight": "2.22 kg",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jixgfww0/computer/f/z/6/acer-na-gaming-laptop-original-imaf6md4wykhvtvz.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "40",
+        "category": "Electronics",
+        "subCategory": "Mobiles",
+        "brand": "Samsung",
+        "productName": " Galaxy A7",
+        "price": "23990",
+        "color": "Black",
+        "ram": "4GB",
+        "os": "Android Oreo 8.0",
+        "sim": "dual",
+        "capacity": "1 TB HDD",
+        "display": "6 inch",
+        "camera": "24MP + 5MP + 8MP",
+        "network": "4G Volte, 4G, 3G, 2G",
+        "battery": "3300 mAH",
+        "warranty": "1 year",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmgmmq80/mobile/x/f/z/samsung-galaxy-a7-sm-a750fzbhins-original-imaf9d35cv5anzqw.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "41",
+        "category": "Electronics",
+        "subCategory": "Mobiles",
+        "brand": "Redmi",
+        "productName": " Note 5 pro",
+        "price": "14990",
+        "color": "Gold",
+        "os": "Qualcomm Snapdragon 636",
+        "sim": "dual",
+        "storage": "16GB",
+        "display": "5.99 inch",
+        "camera": "12MP + 5MP + 20MP",
+        "network": "4G Volte, 4G, 3G, 2G",
+        "battery": "4000 mAH",
+        "warranty": "1 year",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jdkjzww0/mobile/y/q/m/redmi-note-5-pro-mzb6084in-original-imaf2g8zj6y5vkqn.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "42",
+        "category": "Electronics",
+        "subCategory": "Mobiles",
+        "brand": "Apple",
+        "productName": "iPhone SE",
+        "price": "23990",
+        "color": "Rosegold",
+        "ram": "4GB",
+        "os": "iOS 10",
+        "sim": "single",
+        "storage": "32GB",
+        "display": "4 inch",
+        "camera": "12MP",
+        "network": "4G, 3G, 2G",
+        "battery": "3300 mAH",
+        "warranty": "1 year",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/j7qi9ow0/mobile/n/n/5/apple-iphone-se-mp852hn-a-original-imaexw6faf7zbu4s.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "43",
+        "category": "Electronics",
+        "subCategory": "Mobiles",
+        "brand": "Apple",
+        "productName": "iPhone XS",
+        "price": "94990",
+        "color": "Gold",
+        "ram": "4GB",
+        "os": "iOS 10",
+        "sim": "single",
+        "storage": "64GB",
+        "display": "5.8 inch",
+        "camera": "24MP",
+        "network": "4G, 3G, 2G",
+        "battery": "3300 mAH",
+        "warranty": "1 year",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jm9hfgw0/mobile/x/g/f/apple-iphone-xs-mt9k2hn-a-original-imaf97f6hqebeych.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "44",
+        "category": "Electronics",
+        "subCategory": "Mobiles",
+        "brand": "Vivo",
+        "productName": "V5",
+        "price": "14000",
+        "color": "Silver",
+        "ram": "4GB",
+        "os": "mediaTek",
+        "sim": "single",
+        "storage": "32GB",
+        "display": "4 inch",
+        "camera": "20MP",
+        "network": "4G, 3G, 2G",
+        "battery": "3300 mAH",
+        "warranty": "1 year",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/j2z1fgw0/mobile/k/r/r/vivo-v5s-1713-original-imaeu5e8fhd8yjhn.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "45",
+        "category": "Electronics",
+        "subCategory": "Mobiles",
+        "brand": "Motorola",
+        "productName": "One Power",
+        "price": "15990",
+        "color": "Black",
+        "ram": "4GB",
+        "os": "Qulcomm Snapdragon",
+        "sim": "dual",
+        "storage": "64GB",
+        "display": "4 inch",
+        "camera": "12MP",
+        "network": "4G, 3G, 2G",
+        "battery": "3300 mAH",
+        "warranty": "1 year",
+        "productImage": [
+            "https://rukminim1.flixcart.com/image/832/832/jmjhifk0/mobile/b/c/z/motorola-moto-one-power-na-original-imaf97rzgvpbt4um.jpeg?q=70"
+        ]
+    },
+    {
+        "id": "46",
+        "category": "Clothing",
+        "subCategory": "Women",
+        "brand": "Aurelia",
+        "productName": "Kurta",
+        "price": "2000",
+        "color": "red"
+    }
 ]
-}

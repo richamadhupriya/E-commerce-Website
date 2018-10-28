@@ -12,6 +12,7 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<script src="../js/category.js"></script>
+	<script src="../js/home.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,9 @@
 			</div>
 
 			<ul class="nav navbar-nav navbar-right">
-
+				
+				<li><a data-toggle="modal" data-target="#login" type="button"><span class="glyphicon glyphicon-log-in"></span>
+					Login</a></li>
 				<li><a href="../html/wishlist.html"><span class="glyphicon glyphicon-heart"></span>
 						Wishlist</a></li>
 				<li><a href="../html/cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>
@@ -35,7 +38,30 @@
 		</div>
 	</nav>
 	<!-- Navigation bar -->
-
+	<!--Login Modal-->
+	<div id="login" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close btn-danger" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+				  <div class="form">
+					  <form name="loginForm" method="POST">
+							<label for="userName">Username: </label>
+							<input type="text" class="form-inline form-control" name="userName" id="userName" placeholder="Enter the username" required /><br/>
+							<label for="password">Password: </label>
+							<input type="password" class="form-inline form-control" name="password" id="password" placeholder="Enter the password" required /><br/>
+							<center><input type="submit" class="btn btn-success" onclick="login()"/></center>
+						  
+					  </form>
+				  </div>
+				</div>
+			  </div>
+		  
+			</div>
+		  </div>
+	<!--Login Modal-->
 
 	<!-- Slideshow -->
 
@@ -86,32 +112,14 @@
 
 
 	<!-- Slideshow -->
-	<!--Filter-->
-
-	<!--Filter-->
-	<!--Search Bar-->
-	<div class="container searchBar">
-		<button class="btn btn-primary " id="filter">
-			<span class="glyphicon glyphicon-filter">Filter</span>
-		</button>
-		<form class="form-inline navbar-right">
-			<div class="input-group">
-				<input type="text" class="form-control input-md" id="searchTxt" size="50" placeholder="Search..">
-				<div class="input-group-btn">
-					<button class="btn btn-primary form-control" type="submit" onclick="search();">
-						<i class="glyphicon glyphicon-search"></i>
-					</button>
-				</div>
-			</div>
-		</form>
-	</div>
-	<hr />
-	<!--Search Bar-->
+	
+	
 
 	<!--CATEGORIES-->
 	<div class="row ">
 		<nav class="col-md-2 section">
 			<ul class="nav nav-tabs nav-stacked" id="ShowCategory">
+				
 				<li><a href="../html/home.html">Home</a></li>
 			</ul>
 		</nav>
