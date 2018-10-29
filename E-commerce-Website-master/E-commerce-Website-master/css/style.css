@@ -169,12 +169,12 @@ body
 }
 #add
 {
-	top:-100px;
+	top:-150px;
 	overflow: auto;
 }
 #update
 {
-	top:-100px;
+	top:-150px;
 	overflow: auto;
 }
 @media screen and (max-width:500px)

@@ -33,7 +33,7 @@ app.post('/addProduct', (req, res)=>{
 /*
     @desc: to update a product
 */
-app.put('/updateProduct', (req, res)=>{
+app.post('/updateProduct', (req, res)=>{
     
   for (var product of items) {
     if (product.id == req.body.id) {
@@ -71,4 +71,4 @@ app.delete('/deleteProduct/:id',(req,res)=>
 });
 
 
-app.listen(8080, ()=> console.log("Listening on port 8080"))
+app.listen(8080, ()=> console.log("Listening on http://127.0.0.1"));

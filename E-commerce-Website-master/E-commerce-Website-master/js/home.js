@@ -19,7 +19,7 @@ function login(){
 	else if(user == "admin" && pass== "admin")
 	{
 		window.alert("You have logged into admin account")
-		window.location.assign("../html/admin.html")
+		window.open("http://127.0.0.1:5500/html/admin.html")
 	}
 	else{
 		window.alert("You have entered wrong credentials")
