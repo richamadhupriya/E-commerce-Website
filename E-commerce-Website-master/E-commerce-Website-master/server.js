@@ -56,7 +56,7 @@ app.post('/updateProduct', (req, res)=>{
 /*
     @desc: to delete a product
 */
-app.delete('/deleteProduct/:id',(req,res)=>
+app.get('/deleteProduct/:id',(req,res)=>
 {
     var id = req.params.id + "";
     for (var i = 0; i < items.length; i++) {
@@ -71,4 +71,4 @@ app.delete('/deleteProduct/:id',(req,res)=>
 });
 
 
-app.listen(8080, ()=> console.log("Listening on http://127.0.0.1"));
+app.listen(8080, ()=> console.log("Listening on http://127.0.0.1:8080"));
