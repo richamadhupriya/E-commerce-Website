@@ -177,13 +177,27 @@ body
 	top:-150px;
 	overflow: auto;
 }
+input:required{
+	border: 1px solid red;
+}
+input:invalid{
+	border: 1px solid red;
+}
+input:valid{
+	border: 1px solid green;
+}
 @media screen and (max-width:500px)
 {
 	.thumbnail{
 		height:510px;
 	}
 }
-
+@media screen and (max-width:1040px)
+{
+	.thumbnail{
+		height:510px;
+	}
+}
 
 @media screen and (max-width:760px)
 {

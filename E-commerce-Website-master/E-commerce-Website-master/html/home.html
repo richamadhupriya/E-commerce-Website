@@ -44,10 +44,11 @@
 			  <div class="modal-content">
 				<div class="modal-header">
 				  <button type="button" class="close btn-danger" data-dismiss="modal">&times;</button>
+				  <p class="alert alert-warning"><span class="glyphicon glyphicon-warning-sign"></span> You are logging into admin account</p>
 				</div>
 				<div class="modal-body">
 				  <div class="form">
-					  <form name="loginForm" method="POST">
+					  <form class="form-horizontal" name="loginForm" method="POST">
 							<label for="userName">Username: </label>
 							<input type="text" class="form-inline form-control" name="userName" id="userName" placeholder="Enter the username" required /><br/>
 							<label for="password">Password: </label>
@@ -128,6 +129,7 @@
 		<!--PRODUCTS-->
 		<div class="col-md-8">
 			<div class="flex-container">
+				<div id="sortItems"></div>
 				<div class="row" id="productItems">
 
 				</div>

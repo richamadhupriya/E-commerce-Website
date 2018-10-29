@@ -25,8 +25,8 @@ app.get('/products', (req, res)=>{
 */
 app.post('/addProduct', (req, res)=>{
     items.push(req.body);
-  res.send(items);
-  fs.writeFileSync("./data/productData.json", JSON.stringify(items));
+    res.send(items);
+    fs.writeFileSync("./data/productData.json", JSON.stringify(items));
     console.log("Added a new product");
 })
 

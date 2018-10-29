@@ -37,8 +37,8 @@ function displayCart() {
             <div class="col-md-6 col-sm-2 col-xs-12">
             <h1 style="color:red;">`+product.brand+`</h1>
             <h3>Name: `+ product.productName+`</h3>
-            <h3 id="price">Color: `+product.color+`</h3>
-            <h3 id="price">Price: &#x20B9; `+product.price+`</h3>
+            <h3 id="color">Color: `+product.color+`</h3>
+            <h3 id="price" value="`+product.price+`">Price: &#x20B9; `+product.price+`</h3>
             </div>
             <div class="col-md-6 col-sm-2 col-xs-12">
             <img src="` + product.productImage[0] + `" style="width:300px;height:400px;"></img>
@@ -63,7 +63,9 @@ function displayCart() {
                     } 
                 } 
 			});
-			document.getElementById("cartBtn" + product.id).innerHTML = "<center>" + "Remove Item" + "</center>";
+            document.getElementById("cartBtn" + product.id).innerHTML = "<center>" + "Remove Item" + "</center>";
+            
+
         }
         
     });
@@ -172,6 +174,7 @@ function displayDetails() {
             document.getElementById("details"+product.id).innerHTML = 
             `<div class="row" >
             <div class="col-md-6 col-sm-2 col-xs-12">
+            <a href="../html/home.html"><span class="glyphicon glyphicon-arrow-left" > </span></a> Back
             <h1 style="color:red;">`+product.brand+`</h1>
             <h3> Name: `+ product.productName+`</h3><h3>Price: &#x20B9; `+product.price+`</h3>
             <h3>Color: `+product.color+`</h3>
