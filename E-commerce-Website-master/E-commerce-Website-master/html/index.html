@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>e-Shop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	<link rel="stylesheet" href="../css/index.css">
+	<script src="../js/category.js"></script>
+	<script src="../js/home.js"></script>
+</head>
+
+<body>
+
+
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<p class="logo"><a href="../html/home.html">e-Shop</a></p>
+			</div>
+
+		</div>
+	</nav>
+	<!-- Navigation bar -->
+
+    <div class="panel panel-primary login">
+        <div class="panel-heading">
+            <h4>Log in</h4>
+        </div>
+        <div class="panel-body">
+            <div class="form">
+                <form class="form-horizontal" name="loginForm" method="POST">
+                    <label for="userName">Username: </label>
+                    <input type="text" class="form-inline form-control" name="userName" id="userName" placeholder="Enter the username" required /><br/>
+                    <label for="password">Password: </label>
+                    <input type="password" class="form-inline form-control" name="password" id="password" placeholder="Enter the password" required />
+                  
+              </form>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <center><input type="submit" class="btn btn-success" onclick="login()"/></center>
+        </div>
+    </div>
+	
+
+
+
+</body>
+
+</html>

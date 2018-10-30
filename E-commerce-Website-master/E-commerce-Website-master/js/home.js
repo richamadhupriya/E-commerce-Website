@@ -22,9 +22,8 @@ function login(){
 		window.open("../html/admin.html")
 	}
 	else{
-		window.alert("You have entered wrong credentials")
-		user.focus(); 
-		return false;
+		window.location.assign("../html/home.html")
+		
 	}
 	
 	

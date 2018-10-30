@@ -6,6 +6,7 @@ body
 	 font-weight:bold;
 	 font-size:20px;
 	 color:blue;
+	 
 }
 .logo {
   font: 30px "Impact", sans-serif;
@@ -21,8 +22,7 @@ body
 }
 .navbar
 {
-	background-color:rgba(226, 73, 73, 0.281);
-	color:red;
+	background-color:rgb(0, 0, 3);
 }
 #filter
 {
@@ -141,12 +141,13 @@ body
 }
 .crud .thumbnail{
 	padding:18px 18px;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(170,0,0,0.5);
     transition: 0.3s;
 	height:100%;
 	width:800px;
 	margin-bottom: 30px;
 	margin-left:130px;
+	margin-top: 80px
 }
 .block {
     border: 0px solid dodgerblue;
@@ -154,7 +155,8 @@ body
     vertical-align: middle;
 }
 .circle {
-    background: dodgerblue;
+	background: dodgerblue;
+	box-shadow: 0 4px 8px 0 rgba(98, 14, 207, 0.733);
     border-radius: 200px;
     color: white;
     height: 200px;
@@ -162,6 +164,10 @@ body
     width: 200px;
 	display: table;
 	padding-bottom: 10px;
+}
+.circle:hover
+{
+	box-shadow: 0 8px 16px 0 rgba(37, 0, 170, 0.5);
 }
 .circle p {
     vertical-align: middle;
@@ -186,6 +192,8 @@ input:invalid{
 input:valid{
 	border: 1px solid green;
 }
+
+
 @media screen and (max-width:500px)
 {
 	.thumbnail{

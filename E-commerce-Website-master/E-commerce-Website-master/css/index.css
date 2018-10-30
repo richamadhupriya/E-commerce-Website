@@ -1,0 +1,44 @@
+body{
+    background-image: url("../images/back1.jpeg");
+	 background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.login{
+	width:500px;
+	height:300px;
+    margin-left:400px;
+    margin-top: 100px
+}
+.logo {
+    font: 30px "Impact", sans-serif;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px;
+    color:red;
+  } 
+  .logo a{
+      text-decoration: none;
+  }
+  .navbar
+  {
+      background-color:rgb(0, 0, 3);
+  }
+  input:required{
+	border: 1px solid red;
+}
+input:invalid{
+	border: 1px solid red;
+}
+input:valid{
+	border: 1px solid green;
+}
+
+@media screen and (max-width:1040px)
+{
+	.login{
+        margin-left: 10px
+	}
+}
